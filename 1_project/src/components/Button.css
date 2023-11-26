@@ -1,0 +1,18 @@
+:root {
+    --index: calc(1vw + 1vh)
+}
+
+.btn {
+    background-color: #1e91e9;
+    color: #fff;
+    /* height: calc(var(--index) * 2); */
+    border: 2px solid #0c85e1;
+    font-size: calc(var(--index) * 0.55);
+    padding: calc(var(--index) * 0.4);
+    border-radius: calc(var(--index) * 0.2);
+    transition: 1s;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 5px #fff;
+}

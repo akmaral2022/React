@@ -1,0 +1,22 @@
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Contacts_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #153d52;
+    padding: 30px;
+    margin: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 5px #0abeff;
+    margin: 100px;
+
+}

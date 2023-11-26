@@ -1,0 +1,11 @@
+.Mybtn {
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 14px;
+    background-color: transparent;
+    background-color: #972626;
+    border: none;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 3px;
+    cursor: pointer;
+}

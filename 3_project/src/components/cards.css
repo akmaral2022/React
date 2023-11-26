@@ -1,0 +1,15 @@
+:root {
+    --index: calc(1vw + 1vh)
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #165a65;
+    box-shadow: 2px 2px 3px #011d6a;
+    width: calc(var(--index)*7);
+    background: #0c5299;
+    color: #fff;
+}

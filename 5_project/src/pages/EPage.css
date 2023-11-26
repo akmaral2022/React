@@ -1,0 +1,46 @@
+.EPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+}
+
+h1 {
+    color: rgb(171, 17, 17);
+    font-size: 45px;
+}
+
+.EPage_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #153d52;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    box-shadow: 0px 0px 5px #0abeff;
+    margin: 100px;
+}
+
+button {
+    background: linear-gradient(#035987, #153d52);
+    box-shadow: 1px 1px 3px #096b8f;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid #153d52;
+}
+
+button:hover {
+    background: linear-gradient(#036497, #24688c);
+}
+
+button:active {
+    background: #153d52;
+}

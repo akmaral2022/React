@@ -1,0 +1,44 @@
+.AboutMe {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Cards {
+    display: flex;
+
+}
+
+.Card {
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    width: 50%;
+    box-shadow: 0px 0px 5px #0abeff;
+}
+
+.Personal {
+    margin: 0;
+    background: #153d52;
+    opacity: 0.9;
+}
+
+.Skils {
+    margin: 0;
+    background: #04516c;
+    opacity: 0.9;
+
+}
+
+li {
+    list-style: none;
+}
+
+h2,
+h3,
+p {
+    color: #fff;
+}

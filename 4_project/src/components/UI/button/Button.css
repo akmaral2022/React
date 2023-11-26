@@ -1,0 +1,17 @@
+button {
+    font-size: 15px;
+    padding: 8px;
+    min-width: 150px;
+    margin: 10px;
+    background-color: #064d69;
+    color: #fff;
+    border: 1px solid #0a82b1;
+}
+
+button:hover {
+    background-color: #47606a;
+}
+
+button:active {
+    background-color: #0f5a78;
+}
