@@ -64,6 +64,10 @@ function App() {
     const updatedMyLists = myLists.filter(myList => myList.id !== id);
     setMyList(updatedMyLists);
   }
+  function handleDeleteFetch(id) {
+    const updatedMylists = list.filter(post => post.id !== id)
+    setList(updatedMylists)
+  }
 
   return (
     <div className="App">
@@ -81,7 +85,10 @@ function App() {
           </Card>
 
         ))}
-        {list.map(item => <Card key={item.id}>{item.title}</Card>)}
+        {list.map(item => <Card key={item.id}>{item.title}
+          <Button onClick={() => handleDeleteFetch(list.id)}>Delete</Button>
+
+        </Card>)}
       </div>
     </div>
   );

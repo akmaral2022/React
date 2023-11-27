@@ -1,7 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Posts } from './pages/Posts';
-import { About } from './pages/About';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { NavBar } from './components/UI/NavBar/NavBar';
 import { AppRouter } from './components/AppRouter';
 import { AuthContext } from './contex';
