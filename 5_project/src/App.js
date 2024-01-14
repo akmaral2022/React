@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Routes>
+      <Routes> 
         <Route index path='/' element={<PageAboutMe />} />
         <Route path='/portfolio' element={<PagePortfolio />} />
         <Route path='/contacts' element={<PageContacts />} />
